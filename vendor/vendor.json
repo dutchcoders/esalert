@@ -1,0 +1,85 @@
+{
+	"comment": "",
+	"ignore": "test",
+	"package": [
+		{
+			"checksumSHA1": "hqDDDpue/5363luidNMBS8z8eJU=",
+			"path": "github.com/BurntSushi/toml",
+			"revision": "99064174e013895bbd9b025c31100bd1d9b590ca",
+			"revisionTime": "2016-07-17T15:07:09Z"
+		},
+		{
+			"checksumSHA1": "JU+kcMNB8CPi7DJmxK5E3vpNxcg=",
+			"path": "github.com/olivere/elastic",
+			"revision": "eb69fbabfd6151d6c0f6d3d850d4f61edcff3763",
+			"revisionTime": "2016-10-08T09:19:33Z"
+		},
+		{
+			"checksumSHA1": "AmcqvKDAUGvVsrf8NDCQ/B8cMj4=",
+			"path": "github.com/olivere/elastic/uritemplates",
+			"revision": "eb69fbabfd6151d6c0f6d3d850d4f61edcff3763",
+			"revisionTime": "2016-10-08T09:19:33Z"
+		},
+		{
+			"checksumSHA1": "8z32QKTSDusa4QQyunKE4kyYXZ8=",
+			"path": "github.com/patrickmn/go-cache",
+			"revision": "e7a9def80f35fe1b170b7b8b68871d59dea117e1",
+			"revisionTime": "2016-11-25T23:48:19Z"
+		},
+		{
+			"checksumSHA1": "9jjO5GjLa0XF/nfWihF02RoH4qc=",
+			"path": "golang.org/x/net/context",
+			"revision": "45e771701b814666a7eb299e6c7a57d0b1799e91",
+			"revisionTime": "2016-12-15T19:42:18Z"
+		},
+		{
+			"checksumSHA1": "WHc3uByvGaMcnSoI21fhzYgbOgg=",
+			"path": "golang.org/x/net/context/ctxhttp",
+			"revision": "45e771701b814666a7eb299e6c7a57d0b1799e91",
+			"revisionTime": "2016-12-15T19:42:18Z"
+		},
+		{
+			"checksumSHA1": "O5dZe+m70S7vbkgePsMLrUc86DA=",
+			"path": "gopkg.in/olivere/elastic.v2/uritemplates",
+			"revision": "4f4a971f9bff46f4a26e5bd3e889197c1659b112",
+			"revisionTime": "2016-11-18T12:31:29Z"
+		},
+		{
+			"checksumSHA1": "hKfNq5lN9Sh3NpNZ3BBih0W+5yM=",
+			"path": "gopkg.in/olivere/elastic.v3",
+			"revision": "060365a7e27c56c938b234824ef7f9a3a7834b99",
+			"revisionTime": "2016-11-26T12:16:23Z"
+		},
+		{
+			"checksumSHA1": "lLdKOn9RPtFoTtPUNq5+sIInAiE=",
+			"path": "gopkg.in/olivere/elastic.v3/backoff",
+			"revision": "060365a7e27c56c938b234824ef7f9a3a7834b99",
+			"revisionTime": "2016-11-26T12:16:23Z"
+		},
+		{
+			"checksumSHA1": "XQg6xG6l15Ke43KolthYYnVDCYo=",
+			"path": "gopkg.in/olivere/elastic.v3/uritemplates",
+			"revision": "060365a7e27c56c938b234824ef7f9a3a7834b99",
+			"revisionTime": "2016-11-26T12:16:23Z"
+		},
+		{
+			"checksumSHA1": "BdIbeqrB/uIIZCUhAskMDe2O0vA=",
+			"path": "gopkg.in/olivere/elastic.v5",
+			"revision": "b272fab42387a42585235d56f8c6b53b13ddfb7d",
+			"revisionTime": "2016-11-29T17:55:47Z"
+		},
+		{
+			"checksumSHA1": "4o4sDuhMGKUOvovqg1yKGNjaeJU=",
+			"path": "gopkg.in/olivere/elastic.v5/backoff",
+			"revision": "b272fab42387a42585235d56f8c6b53b13ddfb7d",
+			"revisionTime": "2016-11-29T17:55:47Z"
+		},
+		{
+			"checksumSHA1": "pCApZfp2CeDnWbNVsyzNO62ZUXA=",
+			"path": "gopkg.in/olivere/elastic.v5/uritemplates",
+			"revision": "b272fab42387a42585235d56f8c6b53b13ddfb7d",
+			"revisionTime": "2016-11-29T17:55:47Z"
+		}
+	],
+	"rootPath": "github.com/dutchcoders/esalert"
+}
