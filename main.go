@@ -113,6 +113,11 @@ func main() {
 	lastDate := time.Now()
 
 	for {
+		searchDate := lastDate
+
+		// update last scanning date
+		lastDate = time.Now().Add(-30 * time.Minute)
+
 		for _, alert := range config.Alerts {
 			queries := alert.Queries
 
@@ -122,11 +127,7 @@ func main() {
 			hl = hl.PreTags("*").PostTags("*")
 
 			fq := elastic.NewBoolQuery()
-			fq = fq.Must(elastic.NewRangeQuery(alert.DateField).Gte(lastDate))
-			fmt.Println(lastDate)
-
-			// update last scanning date
-			lastDate = time.Now().Add(-24 * time.Hour)
+			fq = fq.Must(elastic.NewRangeQuery(alert.DateField).Gte(searchDate))
 
 			for _, query := range queries {
 				qs := elastic.NewBoolQuery()
@@ -232,7 +233,6 @@ func main() {
 						Alert: alert,
 						Msg:   msg,
 					}
-					break
 				}
 			}
 		}
